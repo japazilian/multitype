@@ -127,6 +127,7 @@ public class Document
 		Display.getDefault().asyncExec(new Runnable() {
 			public void run() 
 			{
+				//test
 				editor.getSelectionProvider().removeSelectionChangedListener(SELECTION_LISTENER);
 				editor.getSelectionProvider().setSelection(new TextSelection(doc, feu.getStartLocation(), feu.getEndLocation()));
 				editor.getSelectionProvider().addSelectionChangedListener(SELECTION_LISTENER);
