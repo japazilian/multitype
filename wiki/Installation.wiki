@@ -3,24 +3,25 @@
 
 = Introduction =
 
-Every client wishing to collaboratively share files will need the MultiType plug-in installed in an Eclipse 3.6+ environment.  The server can be run on a separate computer with a port-forwarded connection.
+Every client wishing to collaboratively share files will need the {{{MultiType}}} plug-in installed in an Eclipse 3.6+ environment.  The server can be run on a separate computer with a port-forwarded connection.
 
 
 = Installation =
 
-== MultiType Plugin ==
+== {{{MultiType}}} Plugin ==
 
-  # Download the MultiType JAR file available in the Downloads section.
+  # Download the {{{MultiType}}} JAR file available in the Downloads section.
   # Locate your Eclipse directory on your computer.
+    * Linux: This will be where you unzipped your Eclipse download
+    * Mac: This will be in `/Applications`
+    * Windows: This will be where you unzipped your Eclipse download
   # Drag the JAR file into the *dropins* folder in your Eclipse directory.
   # Restart Eclipse.
-  # Load the MultiType Perspective or manually open a File List and User List view
+  # Load the {{{MultiType}}} Perspective or manually open a File List and User List view
 
 
-== Server Module ==
+== Server ==
   
   # Download the Server JAR file available in the Downloads section.
   # Execute `java -jar Server.jar [port #]` 
     * (e.g. `java -jar Server.jar 1337`)
-
-Coming soon.
