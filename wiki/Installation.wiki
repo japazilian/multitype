@@ -20,7 +20,7 @@ Every client wishing to collaboratively share files will need the MultiType plug
 == Server Module ==
   
   # Download the Server JAR file available in the Downloads section.
-  # Execute java -jar Server.jar [port] (e.g. java -jar Server.jar 1337)
-List view
+  # Execute `java -jar Server.jar [port #]` 
+    * (e.g. `java -jar Server.jar 1337`)
 
 Coming soon.
