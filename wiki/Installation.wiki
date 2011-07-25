@@ -17,7 +17,7 @@ Every client wishing to collaboratively share files will need the {{{MultiType}}
     * Windows: This will be where you unzipped your Eclipse download
   # Drag the JAR file into the *dropins* folder in your Eclipse directory.
   # Restart Eclipse.
-  # Load the {{{MultiType}}} Perspective or manually open a File List and User List view
+  # Load the {{{MultiType}}} Perspective (Window > Open Perspective > Other...) or manually open a File List and User List view (Window > Show View > Other...)
 
 
 == Server ==
